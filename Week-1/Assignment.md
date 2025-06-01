@@ -9,14 +9,15 @@
 
  # output : -rwxrwxrwx 1 gopal gopal 0 Jun  1 06:19 file1.txt
 
- # Changing Permissions
+ <h3> Changing Permissions</h3>
 
  chmod 400 file1.txt
 
-<!--# output : -r-xr-xr-x 1 gopal gopal   0 Jun  1 06:19 file1.txt-->
+# output : -r-xr-xr-x 1 gopal gopal   0 Jun  1 06:19 file1.txt
 
 chmod 711 file1.txt
 
-<!-- # output : -rwx--x--x 1 gopal gopal    0 Jun  1 06:41 file1.txt-->
+ # output : -rwx--x--x 1 gopal gopal    0 Jun  1 06:41 file1.txt
+ ``` 
 
 ## 2) Execute basic Linux commands (e.g., ls, cd, mkdir, rm, touch) to manipulate files and directories, with an emphasis on understanding their usage.
