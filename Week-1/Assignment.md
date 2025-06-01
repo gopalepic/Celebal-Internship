@@ -74,4 +74,80 @@ sudo chown user_name:user_name_group /path/to/file
 
 ```
 
+## 5) Git Commands
 
+```bash
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+git init
+
+git add file1 file2 file3
+
+git add .
+
+git ls-files
+
+git commit -m "commit message" 
+
+git push origin main 
+
+git pull origin main 
+```
+## 6) Setup a remote repository in Local , Add a file and commit or save the changes and push to master branch
+
+```bash
+mkdir project
+
+cd project
+
+git init
+
+git remote add origin https://github.com/gopalepic/Celebal-Internship.git
+
+echo "making connection with a remote repositary and uploading files on it " > Readme.md
+
+git add Readme.md
+
+git commit -m "Commit"
+
+git branch -M master 
+
+git push -u origin master 
+
+```
+
+## 7) Merge types, Create a new branch then commit and push the changes to new branch and merge it with the master branch using pull request.
+
+```bash
+
+git checkout -b Branch1
+
+touch fileinBranch1
+
+git add fileinBranch1
+
+git commit -m "Commited in Branch 1 " 
+
+git push -u origin Branch1
+
+```
+
+## 8) Undo the last commit or remove the last created file from remote repo using CLIdcgh
+
+```bash
+
+PS E:\Celebal\Week-1> git log --oneline
+
+#   a4268a2 (HEAD -> Branch1, origin/Branch1) added new branch and uploading content on it
+#   0dfd9e5 (origin/main, origin/HEAD, main) 4 parts done
+#   9b999c0 more detailing
+#   d7b280b 1st question completed
+#   639f57d first upload
+
+git reset --hard HEAD~1          # Removes last commit locally
+git push origin HEAD --force     # Forces remote to match local
+
+
+```
