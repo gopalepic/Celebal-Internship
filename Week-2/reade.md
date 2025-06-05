@@ -3,18 +3,14 @@
 ## 1) Deploy Linux and Windows virtual machine and access them using SSH and RDP
 
 ### for Linux VM
+1. Sign up and log in to your chosen cloud provider.
+2. Navigate to the VM creation section (e.g., "Droplets" in DigitalOcean).
+3. Select a Linux distribution (e.g., Ubuntu).
+4. Choose the appropriate plan based on your resource needs.
+5. Configure networking settings and create the VM.
+6. Obtain the Public IP address.
 
-Sign up and log in to your chosen cloud provider.
 
-Navigate to the VM creation section (e.g., "Droplets" in DigitalOcean).
-
-Select a Linux distribution (e.g., Ubuntu).
-
-Choose the appropriate plan based on your resource needs.
-
-Configure networking settings and create the VM.
-
-Obtain the Public IP address
 ```bash
 
 ssh -i "location of .pem file " ubuntu@public_IP_Address
@@ -22,21 +18,21 @@ ssh -i "location of .pem file " ubuntu@public_IP_Address
 ```
 ### For windows VM
 
-Create Windows VM
+1. Create Windows VM
 
-use RDP (Remote Desktop Connection)
+2. se RDP (Remote Desktop Connection)
 
-opne it and just put the IP address
+3. opne it and just put the IP address
 
 
 ## 2) Create an App Service Plan Provision a Web App in the existing App Service Plan and deploy a simple welcome page on it 
 
-Search for Web app in searchbox
+1. Search for Web app in searchbox
 
-As my website was based on Nodejs techstack , so i choose the programming language as Nodejs 
+2. As my website was based on Nodejs techstack , so i choose the programming language as Nodejs 
 
-share the github repo of your project 
+3. share the github repo of your project 
 
-upload it 
+4. upload it 
 
 ![alt text](image.png)
