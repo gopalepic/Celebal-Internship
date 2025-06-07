@@ -65,5 +65,5 @@ ssh -i "location of .pem file " ubuntu@public_IP_Address
 
   5) Click on Review and create and done , you have your's first Running Container Instance 
 
-  ![alt text](<Screenshot 2025-06-07 094047.png>)
+  ![alt text](Resources/<Screenshot 2025-06-07 094047.png>)
 
