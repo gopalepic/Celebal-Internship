@@ -35,7 +35,7 @@ ssh -i "location of .pem file " ubuntu@public_IP_Address
 
 4. upload it 
 
-![alt text](image.png)
+![alt text](Resources/image.png)
 
 ## 3) Create ACR and pull image from ACR and Create a container from it
 
@@ -49,7 +49,7 @@ ssh -i "location of .pem file " ubuntu@public_IP_Address
 
   5. Depoly your Container image to the Container registry 
 
-  ![alt text](<Screenshot 2025-06-06 170817.png>)
+  ![alt text](Resources/Screenshot%202025-06-06%20170817.png)
 
   project Link : https://github.com/gopalepic/QR-Generator-with-Containerization
 
@@ -65,5 +65,5 @@ ssh -i "location of .pem file " ubuntu@public_IP_Address
 
   5) Click on Review and create and done , you have your's first Running Container Instance 
 
-  ![alt text](Resources/<Screenshot 2025-06-07 094047.png>)
+  ![alt text](Resources/Screenshot%202025-06-07%20094047.png)
 
