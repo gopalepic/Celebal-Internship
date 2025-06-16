@@ -58,3 +58,24 @@ az vm create --name VIRTUALMACHINE --resource-group usingAzureCLI --vnet-name fo
 
 ## 4) Create and assign a any policy at subscription level
 
+### Creation of Azure Policy
+
+Steps to do it 
+1. Search Azure Policy and click on Policy
+2. from the left hand side click on definations 
+3. Click on + Policy Definition 
+4. Provide details and make azure policy 
+
+
+
+![alt text](Resources/<Screenshot 2025-06-16 165951.png>);
+
+### Assign Azure Policy on Subscription
+
+Steps to do it 
+1. Go to your policy which you recently created 
+2. Click on Assign Policy 
+3. Fill scope : as your Subscription level
+4. On parameters Block : assign the parameters you requeried , as i just wanted few locations to be considered to deploy my resources online , so i selected the locations that i need .
+
+![alt text](Resources/<Screenshot 2025-06-16 170456.png>);
