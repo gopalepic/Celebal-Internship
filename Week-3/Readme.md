@@ -78,4 +78,4 @@ Steps to do it
 3. Fill scope : as your Subscription level
 4. On parameters Block : assign the parameters you requeried , as i just wanted few locations to be considered to deploy my resources online , so i selected the locations that i need .
 
-![alt text](Resources/<Screenshot%2025-06-16%170456.png>);
+![alt text](Resources/Screenshot%202025-06-16%20170456.png);
