@@ -101,3 +101,13 @@ docker run -p 3000:3000 beepic/qr-generator-latest
 
 ![alt text](<Proofs/Screenshot 2025-06-18 133212.png>)
 
+# Running QR Web Application 
+
+![alt text](<Proofs/Screenshot 2025-06-18 130949.png>)
+
+### for source code , please refer :
+
+```bash
+
+https://github.com/gopalepic/QR-Generator-with-Containerization.git
+```
